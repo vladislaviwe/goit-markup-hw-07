@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/main.css">
     
 </head>
@@ -20,19 +19,19 @@
         
         <header class="header">
             <div class="header-section container">
-                <a lang="en" class="logo header-logo" href="/">
-                    <span class="accent-logo">Web</span>Studio
+                <a lang="en" class="logo header__logo" href="/">
+                    <span class="logo--accent">Web</span>Studio
                 </a>
                 <nav class="header-navigation">
                     <ul class="header-list">
-                        <li class="header-item">
-                            <a class="header-link current" href="./index.html">Студия</a>
+                        <li class="header-list__item">
+                            <a class="header-list__link current" href="./index.html">Студия</a>
                         </li>
-                        <li class="header-item">
-                            <a class="header-link" href="./portfolio.html">Портфолио</a>
+                        <li class="header-list__item">
+                            <a class="header-list__link" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li class="header-item">
-                            <a class="header-link" href="">Контакты</a>
+                        <li class="header-list__item">
+                            <a class="header-list__link" href="">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -67,7 +66,7 @@
 
             <section class="hero">           
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
+                    <button class="hero-btn btn" type="button" data-modal-open>Заказать услугу</button>
             </section>
 
             <!-- Преимущества -->
@@ -124,7 +123,7 @@
 
             <section class="whatwedo section">
                 <div class="container">
-                    <h2 class="whatwedo-title">Чем мы занимаемся</h2>
+                    <h2 class="section-title">Чем мы занимаемся</h2>
                     <ul class="whatwedo-list">
                         <li class="whatwedo-item">
                             <div class="what-we-do-card">
@@ -154,7 +153,7 @@
             <!-- Наша команда -->
             <section class="team section">
                 <div class="container">
-                    <h2 class="team-title">Наша команда</h2>
+                    <h2 class="section-title">Наша команда</h2>
                     <ul class="team-list">
                         <li class="team-item">
                             <img src="./images/ouremployer1.jpg" alt="Фото сотрудника" width="270" height="260">
@@ -304,7 +303,7 @@
 
             <section class="clients section">
                 <div class="container">
-                    <h2 class="client-title">Постоянные клиенты</h2>
+                    <h2 class="section-title">Постоянные клиенты</h2>
                     <ul class="clients-list">
                         <li class="client-item">
                             <div  class="client-box">
@@ -368,11 +367,11 @@
             <!-- Футер -->
 
             <footer class="footer">
-                <div class="container main-box">
+                <div class="container footer-box">
                     <div>
                         <div>
                             <a lang="en" class="logo logo-footer"  href="/">
-                                <span class="accent-logo">Web</span>Studio
+                                <span class="logo--accent">Web</span>Studio
                             </a>
                         </div>
                         <div class="address-box">
@@ -422,7 +421,7 @@
                         <p class="join-text">Подпишитесь на рассылку</p>
                         <form class="sub-form">
                             <input class="sub-mail" type="email" name="mail" placeholder="E-mail">                          
-                            <button class="sub-btn" type="submit">Подписаться
+                            <button class="sub-btn btn" type="submit">Подписаться
                                 <svg class="sub-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-send"></use>
                                 </svg>

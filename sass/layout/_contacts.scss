@@ -5,31 +5,35 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  a {
+    color: var(--second-header-color);
+    transition: color 250ms var(--animation);
+  }
 }
 
-.contacts-list a {
-  color: var(--second-header-color);
-  transition: color 250ms var(--animation);
-}
-.contacts-list a:hover,
-.contacts-list a:focus {
-  color: var(--accent-color);
-}
 .contacts-item + .contacts-item {
   margin-left: 50px;
 }
+
 .contacts-link {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .contacts-list &:hover,
+  .contacts-list &:focus {
+    color: var(--accent-color);
+  }
 }
+
 .contacts-icon {
   margin-right: 10px;
   fill: var(--second-header-color);
   transition: fill 250ms var(--animation);
-}
 
-.contacts-list a:hover svg,
-.contacts-list a:focus svg {
-  fill: var(--accent-color);
+  .contacts-list a:hover &,
+  .contacts-list a:focus & {
+    fill: var(--accent-color);
+  }
 }

@@ -14,16 +14,11 @@
 .client-icon {
   fill: #afb1b8;
   transition: fill 250ms var(--animation);
-}
 
-.clients-link:hover svg,
-.clients-link:focus svg {
-  fill: var(--accent-color);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid var(--accent-color);
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .clients-link {
@@ -35,4 +30,9 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border 250ms var(--animation);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }

@@ -1,17 +1,25 @@
 @import "./utils/vars";
-@import "./base/reset";
 @import "./utils/hidden";
+
+@import "./base/reset";
+
 @import "./components/container";
 @import "./components/title";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/btn";
 
 @import "./layout/header";
 @import "./layout/hero";
-@import "./contacts";
-@import "./advantages";
-@import "./whatwedo";
-@import "./team";
-@import "./clients";
-@import "./footer";
-@import "./modal";
-@import "./portfolio";
-@import "./gallery";
+@import "./layout/contacts";
+@import "./layout/advantages";
+@import "./layout/whatwedo";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/gallery";
+
+@import "./layout/footer/footer";
+@import "./layout/footer/joinus";
+@import "./layout/footer/address";
+@import "./layout/footer/subscribe";

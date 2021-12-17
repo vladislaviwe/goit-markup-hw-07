@@ -12,6 +12,7 @@
     ),
     url(../images/bcg-hero.jpg);
 }
+
 .hero-title {
   width: 696px;
   padding-bottom: 30px;
@@ -26,26 +27,9 @@
 
   color: var(--second-title-color);
 }
+
 .hero-btn {
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-
-  border: none;
-  border-radius: 4px;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--accent-color);
-  color: var(--second-btn-color);
-
-  transition: background-color 250ms var(--animation);
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #188ce8;
 }

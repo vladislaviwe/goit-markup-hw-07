@@ -4,9 +4,10 @@
 
 .whatwedo-item {
   width: 370px;
-}
-.whatwedo-item:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .what-we-do-card {
