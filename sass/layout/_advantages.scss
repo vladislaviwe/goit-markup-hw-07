@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.advantage-item {
+.advantage-list__item {
   width: 270px;
 
   &:not(:last-child) {
@@ -14,14 +14,14 @@
   }
 }
 
-.advantage-item-title {
+.advantage-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
-.advantage-item-text {
+.advantage-list__text {
   padding-top: 10px;
   font-weight: 400;
   font-size: 14px;
@@ -29,7 +29,7 @@
   color: var(--main-text-color);
 }
 
-.advantage-icons {
+.advantage-list__icons {
   height: 120px;
   display: flex;
   justify-content: center;

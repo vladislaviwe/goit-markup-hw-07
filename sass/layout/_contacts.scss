@@ -12,11 +12,11 @@
   }
 }
 
-.contacts-item + .contacts-item {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.contacts-link {
+.contacts__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
   }
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: var(--second-header-color);
   transition: fill 250ms var(--animation);
