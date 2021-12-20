@@ -1,10 +1,8 @@
 .contacts-list {
   display: flex;
   margin-left: auto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+
+  @include font(14px, 500, 1.14, 0.02em);
 
   a {
     color: var(--second-header-color);

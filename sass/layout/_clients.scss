@@ -2,26 +2,26 @@
   display: flex;
 }
 
-.client-box {
+.clients-list__box {
   width: 170px;
   height: 92px;
 }
 
-.client-item + .client-item {
+.clients-list__item + .clients-list__item {
   margin-left: 30px;
 }
 
-.client-icon {
+.clients-list__icon {
   fill: #afb1b8;
   transition: fill 250ms var(--animation);
 
-  .clients-link:hover &,
-  .clients-link:focus & {
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--accent-color);
   }
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;

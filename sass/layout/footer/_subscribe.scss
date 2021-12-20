@@ -2,15 +2,16 @@
   margin-left: 93px;
 }
 
-.sub-form {
+.subscribe-form {
   display: flex;
 }
 
-.sub-mail {
+.subscribe-form__mail {
   width: 358px;
   height: 50px;
   padding-top: 0;
   padding-left: 16px;
+
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -20,23 +21,21 @@
   background-color: transparent;
 }
 
-.input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+.subscribe-form__mail::placeholder {
+  @include font(16px, 400, 1.25, 0.03em);
 
   color: rgba(255, 255, 255, 0.6);
 }
 
-.sub-btn {
+.subscribe-form__btn {
   width: 200px;
   height: 50px;
   margin-left: 12px;
 }
 
-.sub-icon {
+.subscribe-form__icon {
   vertical-align: middle;
   margin-left: 10px;
+
   fill: #ffffff;
 }

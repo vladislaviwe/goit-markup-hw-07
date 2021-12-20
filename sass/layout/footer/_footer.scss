@@ -2,14 +2,24 @@
   background-color: #2f303a;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: baseline;
+}
+
 .logo-footer {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
-.footer-box {
-  display: flex;
-  justify-content: baseline;
+.footer__text {
+  margin-bottom: 20px;
+  margin-top: 72px;
+
+  @include font(14px, 700, 1.14, 0.03em);
+
+  text-transform: uppercase;
+
+  color: var(--second-footer-color);
 }
